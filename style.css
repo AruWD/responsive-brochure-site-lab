@@ -1,0 +1,85 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: beige;
+}
+main{
+    width: 1024px;
+    margin:0 auto;
+}
+header{
+    text-align: center;
+}
+header ul {
+    display: flex;
+    justify-content:left;   
+}
+
+header ul li{
+    list-style-type: none ;
+    padding: 5%;
+    width: 20%;
+}
+header ul li a:focus {
+    text-decoration: none;
+    color: brown;
+    font-size: 18px;
+}
+header ul li a:hover {text-decoration: none;
+    color: rgb(42, 165, 69);
+    font-size: 18px;}
+ 
+h1{
+    
+    color: Green;
+}
+
+article{
+    font-size: 18px;
+}
+img{ padding: 5%;
+    width:100%;
+}
+
+footer{
+    text-align: center;
+}
+
+#contact{
+    width: 75%;
+    margin: 0 auto;
+}
+#contact label{
+    display: block;
+    margin-top: 16px;
+}
+#contact input{
+    width: 100%;
+    padding: 12px;
+}
+#contact textarea{
+    width:100%;
+    height: 200px;
+}
+button{
+    background-color: brown;
+    padding: 12px 24px;
+    color: #fff;
+}
+
+@media (min-width: 300px) and (max-width:600px)
+ {
+    header{
+        background-color: #fff;
+    }
+    main{
+        width: 100vw;
+    }
+    body{
+        padding: 12px;
+    }
+    #gallery{
+        max-width: 90vw;
+    }
+  }
